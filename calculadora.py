@@ -1,17 +1,21 @@
 def sumar(num1, num2):
     return num1 + num2
 
+
 def restar(numero1, numero2):
     return numero1 - numero2
 
+
 def multiplicar(a, b):
     return a * b
+
 
 def dividir(dividendo, divisor):
     if divisor == 0:
         print("no se puede dividir entre cero")
         return None
     return dividendo / divisor
+
 
 if __name__ == "__main__":
     print("bienvenido a la calculadora")
